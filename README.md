@@ -32,7 +32,7 @@ It demonstrates the design and implementation of a relational database system us
 ## 👨‍💻 Contributors
 | Student ID     | Name                  | Contribution |
 |----------------|-----------------------|--------------|
-| 2020-1-60-190 | Farhan Rabby           | 30% |
+| 2019-3-60-085 | Farhan Rabby           | 30% |
 
 ---
 
