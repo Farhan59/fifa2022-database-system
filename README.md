@@ -32,8 +32,6 @@ It demonstrates the design and implementation of a relational database system us
 ## 👨‍💻 Contributors
 | Student ID     | Name                  | Contribution |
 |----------------|-----------------------|--------------|
-| 2020-1-60-181 | Mariya Rahman Momo     | 35% |
-| 2020-1-60-183 | Anika Tamanna          | 35% |
 | 2020-1-60-190 | Farhan Rabby           | 30% |
 
 ---
