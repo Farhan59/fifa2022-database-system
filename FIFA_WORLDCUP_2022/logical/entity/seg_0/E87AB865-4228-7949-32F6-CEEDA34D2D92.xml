@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E87AB865-4228-7949-32F6-CEEDA34D2D92" name="Awards">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 15:49:35 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="awardID" id="BCB2E08E-CB7A-1549-1F42-1721DEDC4BF3">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 15:49:45 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="awardName" id="28651348-4EC2-3AA1-C83B-C2B2FABD1AFE">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 15:50:09 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Year" id="58EFB5A8-F7B4-4BAC-2C59-CB3AF3BFE9D8">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 16:43:11 UTC</createdTime>
+<generatorID>E890F32B-7C32-1622-5222-E71E096B632F</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<referedAttribute>A7B4FF43-2DF6-EA4A-82E8-3D6D3A05A321</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="playerID" id="BECBF5CC-215F-79EF-AD1F-D5858133AC1A">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 18:45:47 UTC</createdTime>
+<generatorID>1861D661-3E1F-1587-7886-CC2CABBC6F92</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<referedAttribute>1BA2F08E-9823-DAC4-4919-C381326BFD51</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="52E129D6-93FC-57C4-0612-BA25227E54E7" name="Awards PK">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 15:50:06 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BCB2E08E-CB7A-1549-1F42-1721DEDC4BF3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

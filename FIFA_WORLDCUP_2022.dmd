@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FIFA_WORLDCUP_2022" id="7B58FF24-A770-5BAB-1207-BD54DC3AE193" version="3.5">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 15:35:49 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7B58FF24-A770-5BAB-1207-BD54DC3AE193</designId>
+</OSDM_Design>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C78C3AE-02B4-0FEE-DF77-63B7BF17A50C" name="Referees">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:21 UTC</createdTime>
+<generatorID>26E119BE-C7B5-C856-242C-8FACC2B4483F</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RefereeID" id="5CE2C17E-8590-4A71-5930-ED979A8A1BD8">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:21 UTC</createdTime>
+<generatorID>DABF10A7-B0BB-603D-C2B6-FA6E9C1EBCF2</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RefereeName" id="B2E1270B-503D-6F7F-85D8-63604E5306C1">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:21 UTC</createdTime>
+<generatorID>136841DF-0659-3C43-665C-543D7F98063C</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country" id="18FFC508-DDA1-C5BA-3879-94783F012383">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:21 UTC</createdTime>
+<generatorID>65E1C237-96D5-3729-D7E2-8587D2D65898</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matchID" id="C0B645F2-1A7D-989C-CBB5-1D4D844583E3">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:21 UTC</createdTime>
+<generatorID>38B7613E-9D11-E323-ADBD-59C5D839EE12</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB3F4123-BA5F-5133-7997-9269AF0C2514" referredColumn="2A447AFE-0068-A9D9-492D-89C15DFC9C14"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C01F81E1-BF74-E98A-8153-A94800191227" name="Referees_PK">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:21 UTC</createdTime>
+<generatorID>103B631F-0091-DCF3-3BF1-53F528177CF8</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CE2C17E-8590-4A71-5930-ED979A8A1BD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E68C39D-41F1-C04A-238C-17139E881E17" name="Referees_Matches_FK">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>66F8BE7C-4C85-7CE6-19BB-125DBE5CF4AB</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0B645F2-1A7D-989C-CBB5-1D4D844583E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

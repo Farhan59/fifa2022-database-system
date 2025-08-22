@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31860AAC-905B-DA1C-532A-6AC82DF3A9AB" name="Coaches">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:21 UTC</createdTime>
+<generatorID>0DF39AA0-B9D6-5C76-F1BC-D191DF5D742D</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="coachID" id="98876FBD-3AAB-0C6E-4DDB-714EA3AF1089">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:21 UTC</createdTime>
+<generatorID>C8D89530-47D1-8CFF-C2CE-BAA02C70269F</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="coachName" id="6B24AF42-2FBD-166D-DA51-42BB79A3D700">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:21 UTC</createdTime>
+<generatorID>E344BEC8-067F-CC21-F5BD-63FFBFACD766</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76AD6720-3E77-FCA2-6FEB-F537492BDDCD" name="Coaches_PK">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:21 UTC</createdTime>
+<generatorID>14EEB870-A4B8-F235-1B63-D68593972FF4</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98876FBD-3AAB-0C6E-4DDB-714EA3AF1089"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

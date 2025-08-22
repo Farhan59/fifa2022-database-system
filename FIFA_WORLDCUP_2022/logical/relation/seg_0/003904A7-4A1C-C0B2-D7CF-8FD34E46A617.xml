@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="haveGD" directorySegmentName="seg_0" id="003904A7-4A1C-C0B2-D7CF-8FD34E46A617">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 17:13:41 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<sourcePk>DD770522-2519-8996-6FBD-4279118D55C6</sourcePk>
+<targetPk>A944BCD6-1FC4-B90F-A7E7-C65947571A1E</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>72A0FED4-D580-68EF-9603-6056B8919081</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C1BC436F-1E4F-536B-CE0F-FFFD6292529C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

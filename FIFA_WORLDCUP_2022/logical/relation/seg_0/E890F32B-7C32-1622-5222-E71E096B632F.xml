@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FIFA_Award" directorySegmentName="seg_0" id="E890F32B-7C32-1622-5222-E71E096B632F">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 16:42:45 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<sourcePk>52E129D6-93FC-57C4-0612-BA25227E54E7</sourcePk>
+<targetPk>BDC03891-4FFC-4B49-207F-7D1F3B960B35</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E87AB865-4228-7949-32F6-CEEDA34D2D92</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9EB0A0BA-34B8-AC1D-6F61-A9232D6E7D63</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

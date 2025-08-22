@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E41BF9AE-705B-1125-7213-2692237981C3" containerWithKeyObject="27EAF269-08A7-502F-5658-493F459813A5" localFKIndex="EB3B4E0F-BC97-F7BA-9457-C3FBBBC97DD5" name="GDetails_Players_FK">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>51AABF7D-FF42-1316-F0A2-42FF400748AF</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<referredTableLongName>Players</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E24B7AF3-2091-1F70-852D-196CBB0749C4</referredTableID>
+<keyObject>7CF5E00D-3AE0-0E61-9E0E-CD599CBD1330</keyObject>
+<referredKeyID>7CF5E00D-3AE0-0E61-9E0E-CD599CBD1330</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>playerID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

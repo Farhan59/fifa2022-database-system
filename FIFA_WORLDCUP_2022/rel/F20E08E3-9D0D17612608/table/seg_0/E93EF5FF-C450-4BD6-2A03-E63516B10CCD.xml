@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E93EF5FF-C450-4BD6-2A03-E63516B10CCD" name="Substitides">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>9429BB48-67A2-61FF-EC96-72B0EA540E26</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="inOut" id="CFFCC2B4-626B-C853-58D7-6D668399D35D">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>60E36495-DA95-7106-EF92-68CED4879C8B</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timeInOut" id="D0BFDFB4-8947-48A0-0597-FED1663238D3">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>BCF03D39-7CED-978C-F0F5-0EF5D7F9CD65</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ioSchedule" id="0791097D-BC6B-8C6A-5CF9-2B8D07678AC8">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>C9500B95-E785-935B-CD66-A31DF893C5C0</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ioHalf_T" id="43EF87C9-DED2-A7FB-A36A-CE560199EA50">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>2FBDFA13-4480-57E9-542F-243AF989215C</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TeamID" id="20F2B05E-EFA7-3209-83E4-5C2FC85AE385">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>A72656AE-CFC9-48DE-D65B-294D263042CC</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0218DD64-B4C9-0A17-D2A9-61CBFF5BE7A7" referredColumn="6F392F15-CAA2-9E96-828E-60D7E0E0282E"/>
+</associations>
+</Column>
+<Column name="matchID" id="366D782B-ED83-8C93-D9B3-D2296754CC55">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>3EC577F7-1F49-878A-2BA0-5D16308A3A0F</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA40B018-5DBF-3D88-870A-A0C1FEA45791" referredColumn="2A447AFE-0068-A9D9-492D-89C15DFC9C14"/>
+</associations>
+</Column>
+<Column name="playerID" id="73314372-15B9-4DF5-794E-0D7F36959113">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>D2EBEB2C-EE35-F7F4-26C7-72C00A8E8236</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75F6829D-051B-E485-DD39-B4A16F425809" referredColumn="79590A0A-3DA1-9583-CD33-008D1FE9BCA9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="548BD45E-FDF7-9984-FF37-2D0DD51DE689" name="Substitides_Matches_FK">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>F40B3C1D-D8D2-31F5-66D3-4CBB67F1D0E3</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="366D782B-ED83-8C93-D9B3-D2296754CC55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B486BE89-E768-21F5-AD0E-C4A19855D406" name="Substitides_Players_FK">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>0FD453B2-04E4-387C-6D5B-D8586044FE85</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73314372-15B9-4DF5-794E-0D7F36959113"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67D3A13A-AD8C-48E1-35E4-E2C74166FA88" name="Substitides_Teams_FK">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>7ABB0B1A-DBDE-07F1-D39A-71F7BDB1509A</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20F2B05E-EFA7-3209-83E4-5C2FC85AE385"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

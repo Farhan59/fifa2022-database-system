@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42001E74-1B2C-2BE4-951F-DE8DC88E347A" name="PenaltySO">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 16:24:24 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="kickID" id="673CCE5B-1E0E-C532-A5BD-461FBDEC25BC">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 16:24:34 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="scoreGoal" id="7357516F-487F-A831-C8B2-54A473F2D019">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 16:25:40 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kickNo" id="94C7144C-3410-EB79-4F9E-675456D81DFF">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 16:26:21 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PenaltyGK" id="2B616FA3-355F-B077-F15A-C2F964FCF837">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 16:26:49 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matchID" id="5E702179-2299-18FC-0335-99E86A81E495">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 17:12:21 UTC</createdTime>
+<generatorID>C62E79DF-9C6F-170B-DF9C-1B6CAA2A9437</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<referedAttribute>8E6E8436-2405-76E4-904D-65B6313D877A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TeamID" id="E2F1B023-5219-8312-6B26-1B0ABBD7A63A">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 17:17:02 UTC</createdTime>
+<generatorID>A56E4A0A-1DBE-94D7-ACD0-0E2D1FABEA3C</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<referedAttribute>3ED3FCEA-9A1B-4DF5-D22C-D6730EA2027D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="playerID" id="C7521D48-AEA7-0D83-EEA6-7F1D93BEA98C">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 17:17:47 UTC</createdTime>
+<generatorID>5616025F-EADB-A446-00D6-23DA4FF8649D</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<referedAttribute>1BA2F08E-9823-DAC4-4919-C381326BFD51</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69D50772-12E5-3A00-9C48-F74D618FA691" name="Penalty PK">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 16:25:38 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<engineerTo>
+<item key="F20E08E3-322B-C3EA-4AC6-9D0D17612608" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>673CCE5B-1E0E-C532-A5BD-461FBDEC25BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

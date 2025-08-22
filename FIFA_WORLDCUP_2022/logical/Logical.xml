@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D86C060C-A576-0635-2139-D4950A42B2A7" mainViewID="B15C3F10-BFBC-9C54-2D84-7C0807D34EC6">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 15:35:50 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

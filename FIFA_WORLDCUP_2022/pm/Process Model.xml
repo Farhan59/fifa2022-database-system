@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="9260CFD6-3070-334A-6E3B-7B3DA68C027A">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 15:35:51 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11110798-5EDF-66A5-0EC0-245BEC6C5DA7" containerWithKeyObject="B01444BD-A4F7-D7A3-3925-55978FD44A0F" localFKIndex="BD8FE148-3514-2E20-DB13-8F176AF0C141" name="MvanueSch_Schedules_FK">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>3B1B63E7-9350-7675-6DEB-D3E62ADB2E63</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<referredTableLongName>Schedules</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C998F3B1-2B12-E27E-3657-7848289B984E</referredTableID>
+<keyObject>427B9241-DDCE-B1EE-60E1-6ED031009F73</keyObject>
+<referredKeyID>427B9241-DDCE-B1EE-60E1-6ED031009F73</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ScheduleID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

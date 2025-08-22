@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B01444BD-A4F7-D7A3-3925-55978FD44A0F" name="MvanueSch">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ScheduleID" id="AC9D5264-D8ED-0A6D-0B32-251439F4AE58">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11110798-5EDF-66A5-0EC0-245BEC6C5DA7" referredColumn="02CE07B3-CFB4-A0CC-C3EB-819E69DD1BC3"/>
+</associations>
+</Column>
+<Column name="venueID" id="026DE4D2-2555-DFF9-9DC7-C3309636038B">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="761DA16A-9615-29B0-E485-93B2A094FA1B" referredColumn="A8D621B7-F975-18AE-77F5-CA75FAC8993A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEE9CE7E-4C58-8B76-7A87-43147487784E" name="MvanueSch_PK">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC9D5264-D8ED-0A6D-0B32-251439F4AE58"/>
+<colUsage columnID="026DE4D2-2555-DFF9-9DC7-C3309636038B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD8FE148-3514-2E20-DB13-8F176AF0C141" name="MvanueSch_Schedules_FK">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>3B1B63E7-9350-7675-6DEB-D3E62ADB2E63</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC9D5264-D8ED-0A6D-0B32-251439F4AE58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AA77E5A-2201-0E8B-79C6-894E89A5424C" name="MvanueSch_Venues_FK">
+<createdBy>Shamim</createdBy>
+<createdTime>2022-12-22 19:42:22 UTC</createdTime>
+<generatorID>3B1B63E7-9350-7675-6DEB-D3E62ADB2E63</generatorID>
+<ownerDesignName>FIFA_WORLDCUP_2022</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="026DE4D2-2555-DFF9-9DC7-C3309636038B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
